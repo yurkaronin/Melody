@@ -6,12 +6,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ЖК Мелодия</title>
-
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header></header>
+  <header class="custom-header">
+    <div class="wrapper">
+      <div class="custom-header__left">
+        <a class="logo-link" href="">
+          <img class="logo-link__image" src="./img/logo.svg" alt="логотип" width="121" height="33">
+        </a>
+      </div>
+      <div class="custom-header__center">
+        <nav class="main-navigation"></nav>
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item">
+            <a class="main-navigation__link main-navigation__link--active" href="">Подобрать квартиру</a>
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="">Забронировать квартиру</a>
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="">Ход строительства</a>
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="">Проектная декларация</a>
+          </li>
+        </ul>
+        </nav>
+      </div>
+      <div class="custom-header__right">
+        <div class="callback">
+          <span class="callback__label">Закажите звонок:</span>
+          <a class="callback__link" href="tel:88431234567">8 (843) 123-45-67</a>
+        </div>
+      </div>
+
+
+    </div>
+  </header>
   <main></main>
   <footer></footer>
   <script src="js/main.js"></script>
