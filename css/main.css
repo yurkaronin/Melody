@@ -17,13 +17,47 @@ html {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 a,
 button,
-input,
-.font-fix {
-  font-family: "Open Sans", sans-serif;
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+/* bebas-neue-regular - latin */
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/bebas-neue-v2-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/bebas-neue-v2-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v27-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/roboto-v27-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-italic - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v27-latin_cyrillic-italic.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/roboto-v27-latin_cyrillic-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/roboto-v27-latin_cyrillic-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/roboto-v27-latin_cyrillic-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 body {
@@ -36,6 +70,7 @@ body {
   background-color: #ffffff;
   color: #635854;
   font-family: "Roboto", sans-serif;
+  /* font-family: 'Bebas Neue', cursive; */
 }
 
 .wrapper {
@@ -47,7 +82,7 @@ body {
 .custom-header {
   background-color: #635854;
   color: #ffffff;
-  border-bottom: 4px solid #3596F5;
+  border-bottom: 4px solid #3596f5;
 }
 
 .custom-header .wrapper {
@@ -98,5 +133,5 @@ body {
 }
 
 .main-navigation__link--active {
-  background-color: #3596F5;
+  background-color: #3596f5;
 }
