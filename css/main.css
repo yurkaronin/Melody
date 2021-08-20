@@ -135,3 +135,26 @@ body {
 .main-navigation__link--active {
   background-color: #3596f5;
 }
+
+.apartment {
+  padding: 55px 0;
+}
+
+.apartment__image path {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.apartment__image path:hover {
+  opacity: 1;
+}
+
+.apartment__title {
+  font-weight: 400;
+  font-size: 37px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #635854;
+  margin: 0;
+  margin-bottom: 110px;
+}
