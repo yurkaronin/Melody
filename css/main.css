@@ -158,3 +158,12 @@ body {
   margin: 0;
   margin-bottom: 110px;
 }
+
+.counter-group {
+    display: grid;
+    gap: 10px;
+    max-width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
